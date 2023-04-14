@@ -105,6 +105,11 @@
 		font-size: 20px;
 	}
 
+	#nav-menu input{
+		padding-left: 50px;
+		margin-left: 100px;
+	}
+
 	ul{
 		list-style-type: none;
 		display: flex;
@@ -138,6 +143,7 @@
 		font-family: 'Delicious Handrawn', cursive;
 		font-size: 20px;
 	}
+
 
 /* HEADER */
 
