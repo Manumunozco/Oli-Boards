@@ -30,7 +30,8 @@
 	}
 
 	.left-content h1{
-		font-size: 30px;
+		font-size: 20px;
+		margin-top: 160px;
 	}
 
 	img{
@@ -55,9 +56,31 @@
 		margin-bottom: 10px;
 	}
 
+	#nav-menu input{
+		min-width: 40px;
+		text-align: center;
+		margin-right: 100px;
+	}
+
+	.email-form{
+		max-width: auto;
+		height: auto;
+	}
+
+	input[type="email"] {
+		max-width: auto;
+		height: auto;
+		font-size: 5px;
+	}
+
 	.card{
 		flex-basis: 100%;
 		text-align: center;
+	}
+
+	#author{
+		text-align: left;
+		
 	}
 
 	.footer-column{
@@ -106,8 +129,17 @@
 	}
 
 	#nav-menu input{
-		padding-left: 50px;
 		margin-left: 100px;
+		color: white;
+		background-color: rgba(17, 16, 16, 0.945);
+		padding: 10px 15px;
+		border: none;
+		cursor: pointer;
+		/* border-radius: 20px; */
+		z-index: 10;
+		font-family: 'Delicious Handrawn', cursive;
+		font-size: 20px;
+		text-align: center;
 	}
 
 	ul{
@@ -165,7 +197,7 @@
 	}
 
 	.left-content h1{
-		font-size: 80px;
+		font-size: 70px;
 		margin-bottom: 30px;
 	}
 
@@ -236,7 +268,7 @@ height: auto;} */
 
 	.card{
 		background-color: rgb(230, 230, 242);
-		padding: 0px 0px 0px 0px;
+		padding: 10px 10px 10px 10px;
 		width: 30%;
 		box-shadow: 0 2px 5px rgba(0,0,0,0.25);
 		text-align: left;
@@ -245,16 +277,27 @@ height: auto;} */
 		margin-top: 30px;
 	}
 
-	.card img{
+	.card h3{
+		padding-top: 10px;
+	}
+
+	.img-container img{
 		max-width: 100%;
-		height: auto;
+		height: 300px;
 		padding: 0px 0px 0px 0px;
-		margin-bottom: 20px;
+		margin: 20px 0;
+	}
+
+	.img-container{
+		background-color: white;
+		display: flex;
+		justify-content: center;
+
 	}
 
 	.author-image{
 		width: 60px;
-		/* height: 50px; */
+		height: 60px;
 		border-radius: 50%;
 		margin-top: 10px;
 		margin-right: 30px;
@@ -272,7 +315,9 @@ height: auto;} */
 	#author{
 		display: flex;
 		justify-content: center;
+		margin-bottom: 20px;
 		margin-top: 20px;
+		align-items: center;
 	}
 
 	/* SECCION INVERSA */
@@ -281,7 +326,6 @@ height: auto;} */
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 50px;
 		flex-wrap: wrap;
 		background-color: rgb(215, 223, 242);
 	}
